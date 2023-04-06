@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  padding: 2em;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 60vh;
+}
+.main-container > img {
+  max-width: 100%;
+  height: 350px;
+  align-self: flex-end;
+}
+hr {
+  border-top: 1px solid rgba(87, 87, 87, 0.315);
+}
+h1 {
+  font-size: 2.2rem;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+input,
+.add-comment-btn,
+textarea {
+  margin-block: 0.7em;
+}
+.add-comment-btn {
+  align-self: flex-start;
+  padding: 0.7em 1.2em;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+input,
+textarea {
+  border: 1px solid #949494ad;
+  border-radius: 7px;
+  outline-color: #9b9b9b;
+}
+input {
+  padding: 0.7em;
+  font-size: 1rem;
+}
+textarea {
+  font-size: 1.2rem;
+  padding: 0.5em;
+}
+.comments-container {
+  padding: 1em;
+}
+.comments-list {
+  padding: 2em 0 0 0;
+}
+.total-comments {
+  color: white;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  background-color: blue;
+  border-radius: 7.5px;
+}
